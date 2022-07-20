@@ -1,0 +1,19 @@
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+@mixin button($to-button){
+  border-radius: 44px;
+  padding: 13px 25px;
+
+}
+
+@mixin button_inner($story){
+  font-size: 14px;
+line-height: 18px;
+
+}
+
