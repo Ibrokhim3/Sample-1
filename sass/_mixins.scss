@@ -5,15 +5,30 @@
   
 }
 
-@mixin button($to-button){
+
+
+@mixin container{
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@mixin container_a{
+  max-width: 1240px;
+  margin: 0 auto;
+  background: white;
+ 
+}
+
+
+@mixin button{
   border-radius: 44px;
   padding: 13px 25px;
-
-}
-
-@mixin button_inner($story){
   font-size: 14px;
-line-height: 18px;
+  line-height: 18px;
+  background-color: $gray;
+  letter-spacing: 1.96px;
+text-transform: uppercase;
+color: $story;
 
 }
-

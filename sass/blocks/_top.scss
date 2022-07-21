@@ -1,0 +1,37 @@
+.background{
+  background-color: $gray;
+}
+
+.container{
+  @include container;
+  background-color: white ;
+
+  .top {
+    @include flex;
+    justify-content: space-evenly;
+    gap: 180px;
+    padding: 100px 190px 100px 190px;
+
+
+  }
+  .google {
+    
+  
+  
+  }
+  .line {
+    width: 1px;
+    height: 70px;
+    background-color: $gray;
+   
+  
+  
+  }
+  
+  
+
+
+
+  
+}
+

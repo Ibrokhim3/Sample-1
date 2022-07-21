@@ -1,0 +1,91 @@
+.container_a{
+  @include container_a;
+  
+}
+
+
+.comments {
+  @include flex;
+  margin-bottom: 55px;
+
+}
+
+
+.left {
+  width: 50%;
+  @include flex;
+
+
+
+}
+.left_img {
+  width: 50%;
+
+
+}
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 106px;
+  
+  
+
+
+
+}
+.right_txt {
+  width: 395px;
+  color: $for-fonts;
+  font-size: 24px;
+line-height: 32px;
+text-align: left;
+
+
+
+}
+.right_bottom {
+  display: flex;
+  align-items: center;
+
+
+
+}
+.avatar {
+  margin-right: 18px;
+
+
+}
+.right_bottom_info {
+  @include flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+
+
+
+}
+.jesse {
+  color: $for-fonts;
+  font-size: 18px;
+line-height: 22px;
+
+
+}
+
+
+.job {
+  color: $light-gray-font;
+  font-size: 18px;
+line-height: 22px;
+margin-right: 20px;
+
+
+}
+
+
+.story {
+  text-decoration: none;
+  @include button;
+
+}
